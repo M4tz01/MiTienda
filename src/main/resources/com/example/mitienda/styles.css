@@ -1,0 +1,48 @@
+/* Estilos Generales para el Formulario y Paneles */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Campos de texto estilizados */
+.text-field, .password-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 7;
+    -fx-text-fill: #334155;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2563eb;
+    -fx-shadow-highlight-color: rgba(37, 99, 235, 0.2);
+}
+
+/* ComboBoxes */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Tabla de Productos */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f1f5f9;
+    -fx-text-fill: #475569;
+    -fx-font-weight: bold;
+    -fx-size: 35;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #e0f2fe;
+    -fx-text-fill: #0369a1;
+}
